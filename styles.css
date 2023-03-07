@@ -9,6 +9,8 @@ body {
     background-color: #00aeef;
     text-decoration: underline;
     height: 10vh;
+    color: white;
+    padding-top: 2rem;
   }
   
   .people {
@@ -19,6 +21,7 @@ body {
     grid-template-columns: repeat(7, 1fr);
     justify-content: space-evenly;
     align-items: end;
+    overflow: hidden;
   }
   
   .message {
