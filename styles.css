@@ -89,6 +89,11 @@ body {
     display: flex;
     justify-content: center;
     overflow: hidden;
+    transition: all 0.2s ease-in-out;
+  }
+
+  a:hover {
+    transform: scale(1.1);
   }
 
   #img1, #img5 {
@@ -102,12 +107,4 @@ body {
   #img3 {
     max-width: 70%;
     height: auto;
-  }
-
-  img {
-    transition: all 0.2s ease-in-out;
-  }
-
-  img:hover {
-    transform: scale(1.1);
   }
