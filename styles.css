@@ -20,21 +20,21 @@ body {
 
   }
   
-  .message {
+/*   .message {
     background-color: white;
     width: 200px;
     height: 200px;
     border-radius: 25%;
     text-align: center;
-  }
+  } */
   
   h2 {
     padding-top: 2rem;
   }
 
   .position1 {
-    Grid-column: 2/5;
     Grid-row: 1;
+    Grid-column: 2/5;
     z-index: 3;
   }
 
