@@ -89,6 +89,7 @@ body {
     display: flex;
     justify-content: center;
     overflow: hidden;
+    max-width: 100%;
   }
   
   img {
