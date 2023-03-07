@@ -89,10 +89,14 @@ body {
     display: flex;
     justify-content: center;
     overflow: hidden;
+  }
+  
+  img {
     transition: all 0.2s ease-in-out;
   }
 
-  a:hover {
+  img:hover,
+  img:focus {
     transform: scale(1.1);
   }
 
