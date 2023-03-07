@@ -78,15 +78,18 @@ body {
   }
 
   #img1, #img5 {
-    max-width: 15vw;
+    max-width: 20vw;
+    max-height: 80vh;
     height: auto;
   }
   #img2, #img4 {
     max-width: 20vw;
+    max-height: 80vh;
     height: auto;
   }
   #img3 {
-    max-width: 30vw;
+    max-width: 20vw;
+    max-height: 80vh;
     height: auto;
   }
 
