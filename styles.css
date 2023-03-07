@@ -9,9 +9,10 @@
   .canvas {
     height: 80vh;
     background-color: #F5F5F5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(5, 1fr);
+
   }
   
   .message {
@@ -24,4 +25,23 @@
   
   h2 {
     padding-top: 2rem;
+  }
+
+  .position1 {
+    Grid-column: 2/span 3;
+    Grid-row: 1;
+    Padding-top: 20%;
+    z-index: 3;
+  }
+
+  .position2 {
+    grid-row: 1;
+    grid-column: 2;
+    z-index: 2;
+  }
+
+  .position1 {
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 1;
   }
