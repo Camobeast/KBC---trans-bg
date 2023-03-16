@@ -2,15 +2,6 @@ body {
     padding: 0;
     margin: 0;
 }
-
-.header {
-    text-align: center;
-    font-size: 2rem;
-    background-color: #00aeef;
-    text-decoration: underline;
-    height: 10vh;
-    color: white;
-  }
   
   .banner {
     display: flex;
@@ -21,7 +12,7 @@ body {
 
     /* Style for the people section */
   .people {
-    height: 90vh;
+    height: 100vh;
     max-width: 800px;
     display: flex;
     justify-content: center;
@@ -38,7 +29,7 @@ body {
   .position6 {
     flex: 1;
     position: relative;
-    margin: 0 -80px;
+    margin: -50px -80px;
     overflow: hidden;
   }
 
